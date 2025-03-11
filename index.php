@@ -96,7 +96,7 @@
      */
 
     // Aspas simples
-    echo 'isto é uma string comum <br>';
+    echo 'Isto é uma string comum <br>';
 
     echo 'Você pode incluir novas linhas em strings,
           dessa maneira que estará tudo bem <br>';
@@ -113,6 +113,18 @@
     // Imprime: Variáveis $também não $expandem
     echo 'Variáveis $também não $expandem <br>';
 
+    var_dump("0D1" == "000");
+    var_dump("0E1" == "000");
+    var_dump("2E1" == "020");
+
+    // Os temidos arrays
+    // #1 Um array simples
+    $array = [
+        "foo" => "bar",
+        "bar" => "foo",
+    ];
+
+    
     ?>
 </body>
 
