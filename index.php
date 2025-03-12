@@ -124,6 +124,63 @@
         "bar" => "foo",
     ];
 
+
+    // Estruturas de controle
+    // Estrutura IF
+    $a = 1;
+    $b = 2;
+
+    if ($a < $b) {
+        echo "a é menor que b <br>";
+    }
+
+    // Estrutura ELSE
+    if ($a > $b){
+        echo "a é maior que b <br>";
+    }else {
+        echo "a NÃO é maior que b <br>";
+    }
+
+    // Estrutura ELSEIF
+    if ($a > $b){
+        echo "a é maior que b <br>";
+    }elseif($a == $b){
+        echo "a é igual a b <br>";
+    }else {
+        echo "a é menor que b <br>";
+    }
+
+    // Estruturas de controle
+    // Estruturas de repetição 
+    // Estrura while
+
+    # Exemplo número 1
+    $i = 1;
+
+    # tem que ser verdadeiro pra executar
+    while ($i <= 10){
+        echo $i++ . "<br>";
+    }
+    echo $i . "<br>";
+
+    # Exemplo número 2
+    $ii = 1;
+
+    while ($ii <= 10):
+        echo $ii . "<br>";
+        $ii++;
+
+    endwhile;
+
+    // Estrutura do-while
+    $iii = 0;
+
+    do {
+        echo $iii . "<br>";
+    } while($iii > 0);
+
+
+
     
     ?>
 </body>
